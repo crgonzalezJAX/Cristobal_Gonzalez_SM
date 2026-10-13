@@ -2,6 +2,8 @@
 
 A React and Vite personal website featuring work in medical device supplier quality, trail running, Martini and Tux, zodiac profiles, and a Jacksonville Jaguars tracker.
 
+**Live site:** [https://crgonzalezjax.github.io/Cristobal_Gonzalez_SM/](https://crgonzalezjax.github.io/Cristobal_Gonzalez_SM/)
+
 ## Run locally
 
 Install Node.js 20 or newer, then run:
@@ -15,9 +17,9 @@ For a production build, run `npm run build`. The generated site is in `dist/`.
 
 ## GitHub Pages
 
-The app is configured for the repository URL `https://crgonzalezJAX.github.io/Cristobal_Gonzalez_SM/`. Pushing to `main` triggers `.github/workflows/deploy-pages.yml`, which builds the app and publishes `dist/`.
+The site is deployed from the `main` branch. Pushing to `main` triggers `.github/workflows/deploy-pages.yml`, which builds the app and publishes `dist/` to GitHub Pages.
 
-In the repository's **Settings → Pages**, set **Build and deployment → Source** to **GitHub Actions**. This setting is required for the workflow to publish. The repository must also have GitHub Pages available under its GitHub plan and visibility settings.
+The repository's **Settings → Pages → Build and deployment → Source** is set to **GitHub Actions**.
 
 ## Jaguars data
 
